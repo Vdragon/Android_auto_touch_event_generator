@@ -1,5 +1,5 @@
 #!/bin/sh
-set -x
+set +x
 while $(true); do
 	input swipe 100 600 400 600
 	sleep 1
