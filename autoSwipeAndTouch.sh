@@ -1,5 +1,5 @@
 #!/bin/sh
-while [ $(true) ]; do
+while $(true); do
 	input tap 300 300
 	input swipe 100 600 400 600
 	sleep 1
